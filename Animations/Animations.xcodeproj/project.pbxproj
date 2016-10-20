@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E0B2BB71DB30DD900436F29 /* SoundController.h.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0B2BB61DB30DD900436F29 /* SoundController.h.m */; };
+		8E0B2BC61DB310A300436F29 /* categories.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E0B2BBD1DB310A300436F29 /* categories.plist */; };
+		8E0B2BC71DB310A300436F29 /* CategoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0B2BBF1DB310A300436F29 /* CategoryController.m */; };
+		8E0B2BC81DB310A300436F29 /* CategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0B2BC11DB310A300436F29 /* CategoryModel.m */; };
+		8E0B2BC91DB310A300436F29 /* SubCategoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0B2BC31DB310A300436F29 /* SubCategoryController.m */; };
+		8E0B2BCA1DB310A300436F29 /* AssociatedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0B2BC51DB310A300436F29 /* AssociatedViewController.m */; };
 		8E5162731DB26DCD00626AC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5162721DB26DCD00626AC1 /* main.m */; };
 		8E5162761DB26DCD00626AC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5162751DB26DCD00626AC1 /* AppDelegate.m */; };
 		8E51627C1DB26DCD00626AC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E51627A1DB26DCD00626AC1 /* Main.storyboard */; };
@@ -19,6 +25,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E0B2BB51DB30DD900436F29 /* SoundController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundController.h; sourceTree = "<group>"; };
+		8E0B2BB61DB30DD900436F29 /* SoundController.h.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundController.h.m; sourceTree = "<group>"; };
+		8E0B2BBD1DB310A300436F29 /* categories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = categories.plist; sourceTree = "<group>"; };
+		8E0B2BBE1DB310A300436F29 /* CategoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryController.h; sourceTree = "<group>"; };
+		8E0B2BBF1DB310A300436F29 /* CategoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryController.m; sourceTree = "<group>"; };
+		8E0B2BC01DB310A300436F29 /* CategoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryModel.h; sourceTree = "<group>"; };
+		8E0B2BC11DB310A300436F29 /* CategoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryModel.m; sourceTree = "<group>"; };
+		8E0B2BC21DB310A300436F29 /* SubCategoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubCategoryController.h; sourceTree = "<group>"; };
+		8E0B2BC31DB310A300436F29 /* SubCategoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubCategoryController.m; sourceTree = "<group>"; };
+		8E0B2BC41DB310A300436F29 /* AssociatedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssociatedViewController.h; sourceTree = "<group>"; };
+		8E0B2BC51DB310A300436F29 /* AssociatedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssociatedViewController.m; sourceTree = "<group>"; };
 		8E51626E1DB26DCD00626AC1 /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E5162721DB26DCD00626AC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8E5162741DB26DCD00626AC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -48,6 +65,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E0B2BB31DB30D5000436F29 /* AnimationController */ = {
+			isa = PBXGroup;
+			children = (
+				8E0B2BB51DB30DD900436F29 /* SoundController.h */,
+				8E0B2BB61DB30DD900436F29 /* SoundController.h.m */,
+				8E51628B1DB26E5800626AC1 /* ActivityViewController.h */,
+				8E51628C1DB26E5800626AC1 /* ActivityViewController.m */,
+				8E5162911DB2789100626AC1 /* ParticleAnimationController.h */,
+				8E5162921DB2789100626AC1 /* ParticleAnimationController.m */,
+				8E0B2BBE1DB310A300436F29 /* CategoryController.h */,
+				8E0B2BBF1DB310A300436F29 /* CategoryController.m */,
+				8E0B2BC21DB310A300436F29 /* SubCategoryController.h */,
+				8E0B2BC31DB310A300436F29 /* SubCategoryController.m */,
+				8E0B2BC41DB310A300436F29 /* AssociatedViewController.h */,
+				8E0B2BC51DB310A300436F29 /* AssociatedViewController.m */,
+			);
+			name = AnimationController;
+			sourceTree = "<group>";
+		};
+		8E0B2BB41DB30D7B00436F29 /* AnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				8E51628E1DB2781D00626AC1 /* ParticleView.h */,
+				8E51628F1DB2781D00626AC1 /* ParticleView.m */,
+			);
+			name = AnimationView;
+			sourceTree = "<group>";
+		};
+		8E0B2BCB1DB310AF00436F29 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8E0B2BC01DB310A300436F29 /* CategoryModel.h */,
+				8E0B2BC11DB310A300436F29 /* CategoryModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		8E5162651DB26DCD00626AC1 = {
 			isa = PBXGroup;
 			children = (
@@ -71,15 +125,13 @@
 				8E5162751DB26DCD00626AC1 /* AppDelegate.m */,
 				8E5162881DB26DE900626AC1 /* TableViewController.h */,
 				8E5162891DB26DE900626AC1 /* TableViewController.m */,
-				8E51628B1DB26E5800626AC1 /* ActivityViewController.h */,
-				8E51628C1DB26E5800626AC1 /* ActivityViewController.m */,
-				8E5162911DB2789100626AC1 /* ParticleAnimationController.h */,
-				8E5162921DB2789100626AC1 /* ParticleAnimationController.m */,
-				8E51628E1DB2781D00626AC1 /* ParticleView.h */,
-				8E51628F1DB2781D00626AC1 /* ParticleView.m */,
+				8E0B2BB31DB30D5000436F29 /* AnimationController */,
+				8E0B2BCB1DB310AF00436F29 /* Model */,
+				8E0B2BB41DB30D7B00436F29 /* AnimationView */,
 				8E51627A1DB26DCD00626AC1 /* Main.storyboard */,
 				8E51627D1DB26DCD00626AC1 /* Assets.xcassets */,
 				8E51627F1DB26DCD00626AC1 /* LaunchScreen.storyboard */,
+				8E0B2BBD1DB310A300436F29 /* categories.plist */,
 				8E5162821DB26DCD00626AC1 /* Info.plist */,
 				8E5162711DB26DCD00626AC1 /* Supporting Files */,
 			);
@@ -152,6 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E0B2BC61DB310A300436F29 /* categories.plist in Resources */,
 				8E5162811DB26DCD00626AC1 /* LaunchScreen.storyboard in Resources */,
 				8E51627E1DB26DCD00626AC1 /* Assets.xcassets in Resources */,
 				8E51627C1DB26DCD00626AC1 /* Main.storyboard in Resources */,
@@ -165,11 +218,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E0B2BB71DB30DD900436F29 /* SoundController.h.m in Sources */,
+				8E0B2BC71DB310A300436F29 /* CategoryController.m in Sources */,
 				8E5162901DB2781D00626AC1 /* ParticleView.m in Sources */,
 				8E5162761DB26DCD00626AC1 /* AppDelegate.m in Sources */,
+				8E0B2BC81DB310A300436F29 /* CategoryModel.m in Sources */,
+				8E0B2BCA1DB310A300436F29 /* AssociatedViewController.m in Sources */,
 				8E51628A1DB26DE900626AC1 /* TableViewController.m in Sources */,
 				8E51628D1DB26E5800626AC1 /* ActivityViewController.m in Sources */,
 				8E5162931DB2789100626AC1 /* ParticleAnimationController.m in Sources */,
+				8E0B2BC91DB310A300436F29 /* SubCategoryController.m in Sources */,
 				8E5162731DB26DCD00626AC1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,6 +383,7 @@
 				8E5162871DB26DCD00626AC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

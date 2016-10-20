@@ -9,6 +9,8 @@
 #import "TableViewController.h"
 #import "ActivityViewController.h"
 #import "ParticleAnimationController.h"
+#import "SoundController.h"
+#import "AssociatedViewController.h"
 @interface TableViewController ()
 @property (nonatomic,strong)NSArray* animations;
 @property (nonatomic,strong)NSMutableArray<UIViewController*>* animationsVC;
@@ -19,7 +21,7 @@
 -(NSArray *)animations{
     if (_animations == nil) {
         _animations = [[NSArray alloc]init];
-        _animations = @[@"活动指示器",@"粒子动画"];
+        _animations = @[@"活动指示器",@"粒子动画",@"声音震动条",@"级联菜单样式"];
     }
     return _animations;
 }
@@ -29,6 +31,8 @@
         _animationsVC = [[NSMutableArray alloc]init];
         [_animationsVC addObject:[[ActivityViewController alloc]init]];
         [_animationsVC addObject:[[ParticleAnimationController alloc]init]];
+        [_animationsVC addObject:[[SoundController alloc]init]];
+        [_animationsVC addObject:[[AssociatedViewController alloc]init]];
     }
     return _animationsVC;
 }
